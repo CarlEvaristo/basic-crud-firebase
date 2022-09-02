@@ -54,14 +54,14 @@ main{
   width:600px;
   height:fit-content;
   border-radius: 10px;
-  padding:6em 2em;
+  padding:2em;
 }
 h1{
   font-size: 2.5rem;
   margin-top:0;
 }
 h2{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 input{
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
@@ -85,12 +85,24 @@ input,button {
   padding: 1em 1.2em;
   border:none;
 }
+.userBox, .inputBox{
+  background-color: rgb(240, 240, 240);
+  width:100%;
+  padding:1em;
+  margin: 0.5em 0;
+}
+.inputBox{
+  background-color: rgb(184, 221, 255);
+}
 @media (max-width:700px){
   main{
       width:90%;
   }
   button {
       width:auto;
+  }
+  input, button {
+    width:100%;
   }
 
 }
